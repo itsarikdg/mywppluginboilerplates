@@ -10,8 +10,7 @@
  */
 
 if (!defined("ABSPATH")) {
-  exit;
+    exit;
 }
 
-
-require_once plugin_dir_path( __FILE__ ) . "includes/core-functions.php";
+// require_once plugin_dir_path( __FILE__ ) . "includes/core-functions.php";
