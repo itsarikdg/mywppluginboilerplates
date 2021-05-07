@@ -7,7 +7,12 @@ if( !defined("ABSPATH")){
 
 function plugin_boilerplate_render_plugin(){
 
-  $view["data"] = 3;
+  $args = array(
+    "post_per_page" => 3,
+  );
+
+  
+  $view["data"] = get_posts( $args );
   
   extract($view);
 
